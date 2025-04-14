@@ -80,6 +80,25 @@ struct ContentView: View {
                 .fill(.pink)
                 .opacity(0.2)
             )
+            
+            ScrollView(.horizontal) {
+                HStack{
+                    Image("dog2")
+                        .resizable()
+                        .frame(width: 150 ,height: 150)
+                        .overlay(Rectangle().stroke(Color.blue,lineWidth:3))
+                    Image("dog3")
+                        .resizable()
+                        .frame(width: 150 ,height: 150)
+                        .overlay(Rectangle().stroke(Color.blue,lineWidth:3))
+                    Image("dog4")
+                        .resizable()
+                        .frame(width: 150 ,height: 150)
+                        .overlay(Rectangle().stroke(Color.blue,lineWidth:3))
+                }
+                .padding()
+            }
+            .scrollIndicators(.hidden)
                    
 
             
