@@ -29,16 +29,35 @@ struct ContentView: View {
                 .padding(.top,2)
             
             
-            TextField("단어를 입력하세요", text: $nextWord)
-//                .padding()
-              .padding(.leading, 16)
-              .padding(.vertical, 5)
-                .background(RoundedRectangle(cornerRadius: 15).stroke(lineWidth: 6))
-            
-            Text(nextWord)
-            
+            HStack {
+                TextField("단어를 입력하세요", text: $nextWord)
+                //                .padding()
+                    .padding(.leading, 16)
+                    .padding(.vertical, 10)
+                    .background(RoundedRectangle(cornerRadius: 15).stroke(lineWidth: 2))
+                
+                
+                Button {
+                    //동작
+                    print("입력하신 단어는",nextWord)
+                    print("눌림")
+                    
+                } label: {
+                    //뷰
+                    Text("확인")
+                        .foregroundStyle(Color.white)
+                        .padding(.horizontal)
+                        .padding(.vertical,10)
+                        .background(RoundedRectangle(cornerRadius: 10))
+                }
+                        
+            }
+            .padding(.top)
             
             Spacer()
+            
+            
+
             
         }
         .padding()
