@@ -11,7 +11,9 @@ struct ContentView: View {
     
     let title = "끝말잇기게임"
     @State var nextWord: String = "" //뷰에서 쓰이는 변수는 @state 사용해야됨
+    var words : [String] = ["사과","과일","일요일","일탈","탈모","모자"]
     
+    /// <#Description#>
     var body: some View {
         VStack {
             Text(title)
@@ -40,7 +42,10 @@ struct ContentView: View {
                 Button {
                     //동작
                     print("입력하신 단어는",nextWord)
-                    print("눌림")
+                    //사용자가 입력한 단어 : nextword
+                    //단어들의 목록 words
+                    nextWord = ""
+                    //                    print("눌림")
                     
                 } label: {
                     //뷰
@@ -50,19 +55,49 @@ struct ContentView: View {
                         .padding(.vertical,10)
                         .background(RoundedRectangle(cornerRadius: 10))
                 }
-                        
+                
             }
-            .padding(.top)
+            .padding()
             
-            Spacer()
+            List{
+                ForEach(words.reversed(), id: \.self) {word in
+                    Text(word)
+                        .font(.title2)
+                }
+            }.listStyle(.plain)
             
-            
-
-            
+            //            ScrollView{
+            //                VStack{
+            //                    ForEach(words, id: \.self) {word in
+            //                        Text(word)
+            //                    }
+            //                }
         }
-        .padding()
+        
+        
+        Spacer()
+
     }
+    
 }
+        
+        
+        
+//        
+//        HStack{
+//            Text("Hello")
+//            Text("Hello")
+//            Text("Hello")
+//            Text("Hello")
+//            Text("Hello")
+//        }
+//        HStack{
+//            ForEach(1..<6) { number in
+//                Text("Hello")
+//            }
+//        }
+    
+
 
 #Preview {
     ContentView()
