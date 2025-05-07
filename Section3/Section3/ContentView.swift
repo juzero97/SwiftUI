@@ -10,8 +10,11 @@ import SwiftUI
 struct ContentView: View {
     
     let title = "끝말잇기게임"
-    @State var nextWord: String = "" //뷰에서 쓰이는 변수는 @state 사용해야됨
-    var words : [String] = ["사과","과일","일요일","일탈","탈모","모자"]
+    @State var nextWord: String = "" // 사용자가 입력할 단어 (입력창 내용)
+    //뷰에서 쓰이는 변수는 @state 사용해야됨
+    @State var words : [String] = ["Apple","Elsa","Aladin"] // 지금까지 이어진 단어들 목록
+    
+    @State var showAlert : Bool = false
     
     /// <#Description#>
     var body: some View {
@@ -32,6 +35,7 @@ struct ContentView: View {
             
             
             HStack {
+                // 텍스트 입력 필드
                 TextField("단어를 입력하세요", text: $nextWord)
                 //                .padding()
                     .padding(.leading, 16)
@@ -40,12 +44,20 @@ struct ContentView: View {
                 
                 
                 Button {
-                    //동작
-                    print("입력하신 단어는",nextWord)
+//                    //동작
+//                    print("입력하신 단어는",nextWord)
+                    
                     //사용자가 입력한 단어 : nextword
                     //단어들의 목록 words
-                    nextWord = ""
-                    //                    print("눌림")
+                    if(words.last?.last?.lowercased() == nextWord.first?.lowercased()){
+                        //끝말이 이어지는 상황
+                        words.append(nextWord)
+                        nextWord = ""
+                    }else{
+                        //끝말이 이어지는 상황
+                        nextWord = ""
+                        showAlert = true
+                    }
                     
                 } label: {
                     //뷰
@@ -54,6 +66,11 @@ struct ContentView: View {
                         .padding(.horizontal)
                         .padding(.vertical,10)
                         .background(RoundedRectangle(cornerRadius: 10))
+                }
+                .alert("끝말이이어지는 단어를 입력해주세요", isPresented: $showAlert){
+                    Button("확인",role: .cancel){
+                        showAlert = false
+                    }
                 }
                 
             }
