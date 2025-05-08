@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		CD19E6E72DAF91B00051A219 /* Section3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Section3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD7C6782DCB814900CAA056 /* Pratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CD19E6E92DAF91B00051A219 /* Section3 */ = {
+		CDD7C67A2DCB814900CAA056 /* Pratice */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Section3;
+			path = Pratice;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD19E6E42DAF91B00051A219 /* Frameworks */ = {
+		CDD7C6752DCB814900CAA056 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD19E6DE2DAF91B00051A219 = {
+		CDD7C66F2DCB814900CAA056 = {
 			isa = PBXGroup;
 			children = (
-				CD19E6E82DAF91B00051A219 /* Products */,
-				CD19E6E92DAF91B00051A219 /* Section3 */,
+				CDD7C67A2DCB814900CAA056 /* Pratice */,
+				CDD7C6792DCB814900CAA056 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD19E6E82DAF91B00051A219 /* Products */ = {
+		CDD7C6792DCB814900CAA056 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD19E6E72DAF91B00051A219 /* Section3.app */,
+				CDD7C6782DCB814900CAA056 /* Pratice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD19E6E62DAF91B00051A219 /* Section3 */ = {
+		CDD7C6772DCB814900CAA056 /* Pratice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD19E6F52DAF91B10051A219 /* Build configuration list for PBXNativeTarget "Section3" */;
+			buildConfigurationList = CDD7C6862DCB814A00CAA056 /* Build configuration list for PBXNativeTarget "Pratice" */;
 			buildPhases = (
-				CD19E6E32DAF91B00051A219 /* Sources */,
-				CD19E6E42DAF91B00051A219 /* Frameworks */,
-				CD19E6E52DAF91B00051A219 /* Resources */,
+				CDD7C6742DCB814900CAA056 /* Sources */,
+				CDD7C6752DCB814900CAA056 /* Frameworks */,
+				CDD7C6762DCB814900CAA056 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CD19E6E92DAF91B00051A219 /* Section3 */,
+				CDD7C67A2DCB814900CAA056 /* Pratice */,
 			);
-			name = Section3;
+			name = Pratice;
 			packageProductDependencies = (
 			);
-			productName = Section3;
-			productReference = CD19E6E72DAF91B00051A219 /* Section3.app */;
+			productName = Pratice;
+			productReference = CDD7C6782DCB814900CAA056 /* Pratice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD19E6DF2DAF91B00051A219 /* Project object */ = {
+		CDD7C6702DCB814900CAA056 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					CD19E6E62DAF91B00051A219 = {
+					CDD7C6772DCB814900CAA056 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = CD19E6E22DAF91B00051A219 /* Build configuration list for PBXProject "Section3" */;
+			buildConfigurationList = CDD7C6732DCB814900CAA056 /* Build configuration list for PBXProject "Pratice" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CD19E6DE2DAF91B00051A219;
+			mainGroup = CDD7C66F2DCB814900CAA056;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CD19E6E82DAF91B00051A219 /* Products */;
+			productRefGroup = CDD7C6792DCB814900CAA056 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD19E6E62DAF91B00051A219 /* Section3 */,
+				CDD7C6772DCB814900CAA056 /* Pratice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD19E6E52DAF91B00051A219 /* Resources */ = {
+		CDD7C6762DCB814900CAA056 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD19E6E32DAF91B00051A219 /* Sources */ = {
+		CDD7C6742DCB814900CAA056 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CD19E6F32DAF91B10051A219 /* Debug */ = {
+		CDD7C6842DCB814A00CAA056 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		CD19E6F42DAF91B10051A219 /* Release */ = {
+		CDD7C6852DCB814A00CAA056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,14 +244,14 @@
 			};
 			name = Release;
 		};
-		CD19E6F62DAF91B10051A219 /* Debug */ = {
+		CDD7C6872DCB814A00CAA056 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Section3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pratice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -264,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ju0song.Section3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ju0song.Pratice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -272,14 +272,14 @@
 			};
 			name = Debug;
 		};
-		CD19E6F72DAF91B10051A219 /* Release */ = {
+		CDD7C6882DCB814A00CAA056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Section3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pratice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ju0song.Section3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ju0song.Pratice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD19E6E22DAF91B00051A219 /* Build configuration list for PBXProject "Section3" */ = {
+		CDD7C6732DCB814900CAA056 /* Build configuration list for PBXProject "Pratice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD19E6F32DAF91B10051A219 /* Debug */,
-				CD19E6F42DAF91B10051A219 /* Release */,
+				CDD7C6842DCB814A00CAA056 /* Debug */,
+				CDD7C6852DCB814A00CAA056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD19E6F52DAF91B10051A219 /* Build configuration list for PBXNativeTarget "Section3" */ = {
+		CDD7C6862DCB814A00CAA056 /* Build configuration list for PBXNativeTarget "Pratice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD19E6F62DAF91B10051A219 /* Debug */,
-				CD19E6F72DAF91B10051A219 /* Release */,
+				CDD7C6872DCB814A00CAA056 /* Debug */,
+				CDD7C6882DCB814A00CAA056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD19E6DF2DAF91B00051A219 /* Project object */;
+	rootObject = CDD7C6702DCB814900CAA056 /* Project object */;
 }
